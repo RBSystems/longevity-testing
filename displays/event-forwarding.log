@@ -1,0 +1,804 @@
+2018-04-03T22:10:59.945-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:10:59.945-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:10:59.946-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD2
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD2
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD1
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD1
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:117	Num was 95, so action is volume
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD3
+2018-04-03T22:11:09.946-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD3
+2018-04-03T22:11:09.947-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD3
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD3
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:117	Num was 44, so action is input
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD1
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD1
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:11:19.946-0600	DEBUG	displays/server.go:43	%v So you're saying there's a chanceD2
+2018-04-03T22:11:19.987-0600	DEBUG	displays/server.go:50	%v Trying for a set stateD2
+2018-04-03T22:11:19.987-0600	DEBUG	displays/server.go:117	Num was 93, so action is volume
+2018-04-03T22:11:19.987-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:11:19.987-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:11:19.987-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:11:59.893-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:11:59.893-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:11:59.893-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:43	D1 So you're saying there's a chance
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:117	Num was 18, so action is unblank
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:43	D3 So you're saying there's a chance
+2018-04-03T22:12:09.894-0600	DEBUG	displays/server.go:43	D2 So you're saying there's a chance
+2018-04-03T22:12:09.895-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:12:09.895-0600	DEBUG	displays/server.go:117	Num was 27, so action is standby
+2018-04-03T22:12:09.895-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:12:09.895-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:12:09.895-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:12:09.895-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:12:56.499-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:12:56.499-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:12:56.499-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:117	Num was 10, so action is unblank
+2018-04-03T22:13:06.499-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:13:06.500-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:13:06.500-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:13:06.500-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/ITB/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:13:45.364-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:13:45.364-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:13:45.364-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:117	Num was 83, so action is volume
+2018-04-03T22:13:55.364-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:13:55.365-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/buildings/ITB/rooms/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:13:55.365-0600	WARN	common/common.go:43	error making request: Post http://localhost:8000/buildings/ITB/rooms/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:43
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:13:55.365-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/buildings/ITB/rooms/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:14:05.364-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:14:05.364-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:14:05.364-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:14:05.364-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:14:05.364-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:14:05.365-0600	WARN	common/common.go:20	error making request: Get http://localhost:8000/buildings/ITB/rooms/1108B: dial tcp 127.0.0.1:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:14:30.596-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:14:30.596-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:14:30.596-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:117	Num was 69, so action is mute
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:14:40.596-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:14:50.596-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:14:50.596-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:14:57.305-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:14:57.305-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:14:57.306-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:14:57.306-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:14:57.307-0600	DEBUG	displays/server.go:117	Num was 71, so action is mute
+2018-04-03T22:14:57.307-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:117	Num was 45, so action is input
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:117	Num was 53, so action is input
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:15:00.596-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:15:10.596-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:15:10.596-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:10.596-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:15:10.596-0600	DEBUG	displays/server.go:117	Num was 46, so action is input
+2018-04-03T22:15:10.596-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:15:16.038-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:15:20.596-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:25.386-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:15:25.386-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:15:25.386-0600	DEBUG	displays/server.go:117	Num was 41, so action is input
+2018-04-03T22:15:25.386-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:15:30.596-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:15:31.629-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:15:34.763-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:34.763-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:15:34.763-0600	DEBUG	displays/server.go:117	Num was 89, so action is volume
+2018-04-03T22:15:34.763-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:15:40.596-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:47.237-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:15:47.246-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:15:56.591-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:15:56.591-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:15:59.370-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:15:59.370-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:15:59.370-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:16:09.370-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:16:09.370-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:16:09.370-0600	DEBUG	displays/server.go:117	Num was 22, so action is standby
+2018-04-03T22:16:09.370-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:16:09.370-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:16:09.371-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:16:09.382-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:16:19.370-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:16:26.116-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:26.116-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:16:26.122-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:26.122-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:16:35.468-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:35.468-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:16:41.708-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:41.708-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:16:41.708-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:16:41.711-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:41.711-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:16:41.711-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:16:41.711-0600	DEBUG	displays/server.go:117	Num was 26, so action is standby
+2018-04-03T22:16:41.711-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:16:41.718-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:16:49.370-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:16:49.370-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:16:49.370-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:16:51.062-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:16:51.062-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:16:51.062-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:16:59.370-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:16:59.370-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:16:59.370-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:17:03.545-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:17:03.545-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:17:09.370-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:17:16.036-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:17:16.036-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:17:19.155-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:17:19.155-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:17:19.155-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:17:19.155-0600	DEBUG	displays/server.go:117	Num was 82, so action is volume
+2018-04-03T22:17:19.155-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:17:19.161-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:17:19.370-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:17:19.370-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:17:19.370-0600	DEBUG	displays/server.go:117	Num was 27, so action is standby
+2018-04-03T22:17:19.370-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:17:19.377-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:17:25.392-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:17:25.392-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:17:29.370-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:17:29.370-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:17:31.622-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:17:31.622-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:17:39.370-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:17:39.370-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:17:41.096-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:17:41.096-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:17:41.096-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:17:51.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:17:51.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:17:51.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:17:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:01.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:18:07.785-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:07.785-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:07.785-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:18:07.785-0600	DEBUG	displays/server.go:117	D2 Num was 27, so action is standby
+2018-04-03T22:18:07.785-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:18:07.791-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:18:07.795-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:07.795-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:18:07.795-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:18:11.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:11.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:18:11.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:18:17.143-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:17.143-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:18:21.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:26.508-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:26.508-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:18:32.747-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:32.747-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:18:35.862-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:35.862-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:35.862-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:18:35.862-0600	DEBUG	displays/server.go:117	D2 Num was 24, so action is standby
+2018-04-03T22:18:35.862-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:18:35.868-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:18:41.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:18:42.102-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:42.102-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:18:48.356-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:48.356-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:18:57.708-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:57.708-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:18:57.708-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:18:57.714-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:18:57.714-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:01.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:19:01.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:19:01.096-0600	DEBUG	displays/server.go:117	D1 Num was 61, so action is mute
+2018-04-03T22:19:01.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:19:01.102-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:03.942-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:19:03.942-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:03.942-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:19:03.942-0600	DEBUG	displays/server.go:117	D3 Num was 77, so action is mute
+2018-04-03T22:19:03.942-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:19:03.948-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:11.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:19:11.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:11.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:19:13.309-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:19:13.310-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:13.310-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:117	D2 Num was 2, so action is blank
+2018-04-03T22:19:21.096-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:19:21.103-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:25.786-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:19:25.786-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:25.786-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:117	D1 Num was 40, so action is input
+2018-04-03T22:19:31.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:19:31.103-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:117	D3 Num was 52, so action is input
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:19:41.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:41.097-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:19:41.097-0600	DEBUG	displays/server.go:117	D2 Num was 72, so action is mute
+2018-04-03T22:19:41.097-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:19:41.104-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:41.104-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:117	D2 Num was 9, so action is blank
+2018-04-03T22:19:51.096-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:19:51.104-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:19:57.789-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:19:57.789-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:20:01.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:20:01.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:20:01.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:20:11.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:20:41.156-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: read tcp 10.0.10.175:49488->10.66.76.220:8000: read: connection reset by peer
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:20:41.156-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:20:41.156-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:20:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:20:51.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:20:57.924-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: read tcp 10.0.10.175:49360->10.66.76.220:8000: read: connection reset by peer
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:20:57.924-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:20:57.927-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:01.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:01.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:01.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:21:01.099-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:01.252-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: read tcp 10.0.10.175:49396->10.66.76.220:8000: read: connection reset by peer
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:01.252-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:01.252-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:117	D1 Num was 87, so action is volume
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:11.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:11.099-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:11.099-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:21:11.099-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:21.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:21.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:21.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:21:21.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:21.097-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:21:21.097-0600	DEBUG	displays/server.go:117	D3 Num was 29, so action is standby
+2018-04-03T22:21:21.097-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:21:21.097-0600	DEBUG	displays/server.go:117	D2 Num was 81, so action is volume
+2018-04-03T22:21:21.097-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:21:21.099-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:21:21.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:21.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:21:31.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:31.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:21:31.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:31.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:21:31.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:31.099-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:41.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:41.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:41.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:21:41.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:41.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:41.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:51.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:21:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:21:51.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:21:51.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:21:51.096-0600	DEBUG	displays/server.go:117	D3 Num was 73, so action is mute
+2018-04-03T22:21:51.097-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:21:51.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:21:51.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:21:51.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:22:01.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:01.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:22:01.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:01.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:01.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:01.101-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:22:11.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:11.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:22:11.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:11.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:11.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:11.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:117	D3 Num was 43, so action is input
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:117	D1 Num was 24, so action is standby
+2018-04-03T22:22:21.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:22:21.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:22:21.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:22:31.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:31.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:31.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:31.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:31.096-0600	DEBUG	displays/server.go:117	D2 Num was 48, so action is input
+2018-04-03T22:22:31.097-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:22:31.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:22:31.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:22:31.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:117	D3 Num was 23, so action is standby
+2018-04-03T22:22:41.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:22:41.105-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:117	D3 Num was 99, so action is volume
+2018-04-03T22:22:51.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:22:51.105-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:22:58.062-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:22:58.062-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:22:58.062-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:117	D3 Num was 80, so action is volume
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:01.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:23:01.104-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:23:04.262-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: EOF
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:11.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:11.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:11.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:23:11.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:11.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:11.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:117	D3 Num was 33, so action is standby
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:21.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:21.097-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:23:21.097-0600	DEBUG	displays/server.go:117	D2 Num was 70, so action is mute
+2018-04-03T22:23:21.097-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:23:21.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:23:21.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:21.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:117	D1 Num was 61, so action is mute
+2018-04-03T22:23:31.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:23:31.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:117	D3 Num was 40, so action is input
+2018-04-03T22:23:41.096-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:23:41.099-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:23:41.099-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:41.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:117	D1 Num was 64, so action is mute
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:23:51.097-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:23:51.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:23:51.100-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:23:51.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:117	D1 Num was 80, so action is volume
+2018-04-03T22:24:01.096-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:24:01.099-0600	WARN	common/common.go:44	error making request: Post http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.SetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:44
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:59
+2018-04-03T22:24:01.100-0600	WARN	common/common.go:20	error making request: Get http://ITB-1108B-CP1:8000/buildings/ITB/rooms/1108B: dial tcp 10.66.76.220:8000: connect: connection refused
+github.com/byuoitav/longevity-testing/common.GetState
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/common/common.go:20
+main.StartDevice
+	/home/sir/go/src/github.com/byuoitav/longevity-testing/displays/server.go:47
+2018-04-03T22:24:02.391-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:24:02.391-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:24:02.391-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:24:44.345-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:24:44.346-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:24:44.346-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:117	D1 Num was 88, so action is volume
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:117	D2 Num was 62, so action is mute
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:117	D3 Num was 30, so action is standby
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:24:54.346-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:24:54.354-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:24:54.355-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:24:54.355-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:117	D2 Num was 21, so action is standby
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:117	D3 Num was 27, so action is standby
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:25:04.346-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:25:04.352-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:25:04.353-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:117	D2 Num was 44, so action is input
+2018-04-03T22:25:14.346-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:25:14.352-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:25:21.012-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:25:21.013-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:25:24.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:24.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:24.346-0600	DEBUG	displays/server.go:117	D3 Num was 34, so action is standby
+2018-04-03T22:25:24.346-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:25:24.346-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:25:24.352-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:25:34.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:34.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:36.617-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:25:36.617-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:25:39.731-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:25:39.731-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:25:44.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:44.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:52.219-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:25:52.219-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:25:52.219-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:25:54.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:25:54.346-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:25:54.346-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:25:55.334-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:25:55.335-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:25:55.335-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:25:55.335-0600	DEBUG	displays/server.go:117	D2 Num was 22, so action is standby
+2018-04-03T22:25:55.335-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:25:55.341-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:26:04.346-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:26:04.346-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:26:10.945-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:10.945-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:26:20.297-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:20.297-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:26:20.308-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:20.308-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:26:26.538-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:26.538-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:26:31.470-0600	INFO	logger/log.go:24	Zap Logger Started
+2018-04-03T22:26:31.470-0600	DEBUG	displays/server.go:17	Starting init
+2018-04-03T22:26:31.471-0600	DEBUG	displays/server.go:19	Finishing init
+2018-04-03T22:26:41.471-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:26:41.471-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:26:41.523-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:26:41.523-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:26:41.523-0600	DEBUG	displays/server.go:117	D3 Num was 2, so action is blank
+2018-04-03T22:26:41.523-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:26:41.587-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:26:51.522-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:26:57.741-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:57.742-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:26:57.742-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:26:57.751-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:26:57.751-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:01.471-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:01.471-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:27:07.092-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:07.092-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:27:07.092-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:27:07.092-0600	DEBUG	displays/server.go:117	D3 Num was 3, so action is blank
+2018-04-03T22:27:07.092-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:27:07.098-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:11.471-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:27:11.471-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:27:11.471-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:11.471-0600	DEBUG	displays/server.go:117	D3 Num was 27, so action is standby
+2018-04-03T22:27:11.471-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:27:11.477-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:13.340-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:13.341-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:13.341-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:27:13.341-0600	DEBUG	displays/server.go:117	D2 Num was 53, so action is on
+2018-04-03T22:27:13.341-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:27:13.347-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:21.471-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:21.471-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:27:21.471-0600	DEBUG	displays/server.go:50	D3 Trying for a set state
+2018-04-03T22:27:21.471-0600	DEBUG	displays/server.go:117	D3 Num was 2, so action is blank
+2018-04-03T22:27:21.471-0600	DEBUG	displays/server.go:58	D3 setting state
+2018-04-03T22:27:21.478-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:25.811-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:25.811-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:25.811-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:27:25.811-0600	DEBUG	displays/server.go:117	D1 Num was 90, so action is volume
+2018-04-03T22:27:25.811-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:27:25.817-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:31.471-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:31.471-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:27:35.176-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:35.176-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:35.176-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:27:35.176-0600	DEBUG	displays/server.go:117	D2 Num was 34, so action is on
+2018-04-03T22:27:35.176-0600	DEBUG	displays/server.go:58	D2 setting state
+2018-04-03T22:27:35.182-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:41.471-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:41.471-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
+2018-04-03T22:27:47.652-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:47.652-0600	DEBUG	displays/server.go:43	D3 Starting.
+2018-04-03T22:27:47.653-0600	DEBUG	common/common.go:23	Done getting state
+2018-04-03T22:27:47.653-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:47.653-0600	DEBUG	displays/server.go:50	D1 Trying for a set state
+2018-04-03T22:27:47.653-0600	DEBUG	displays/server.go:117	D1 Num was 62, so action is input
+2018-04-03T22:27:47.653-0600	DEBUG	displays/server.go:58	D1 setting state
+2018-04-03T22:27:47.659-0600	DEBUG	common/common.go:47	Done setting state
+2018-04-03T22:27:51.471-0600	DEBUG	displays/server.go:43	D1 Starting.
+2018-04-03T22:27:51.471-0600	DEBUG	displays/server.go:43	D2 Starting.
+2018-04-03T22:27:51.471-0600	DEBUG	displays/server.go:50	D2 Trying for a set state
