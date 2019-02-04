@@ -8,42 +8,40 @@ import (
 	"net/http"
 
 	"github.com/byuoitav/av-api/base"
-	"github.com/byuoitav/event-forwarding/logger"
+	"github.com/byuoitav/common/log"
 )
 
 var addr = "http://ITB-1108M-CP1:8000/buildings/%s/rooms/%s"
 
 func GetState(building, room string) error {
-	_, err := http.Get(fmt.Sprintf(addr, building, room))
+	resp, err := http.Get(fmt.Sprintf(addr, building, room))
 	if err != nil {
 		msg := fmt.Sprintf("error making request: %v", err.Error())
-		logger.L.Warn(msg)
+		log.L.Warn(msg)
 		return errors.New(msg)
 	}
-	logger.L.Debugf("Done getting state")
+	defer resp.Body.Close()
+
+	log.L.Debugf("Done getting state")
 	return nil
 }
 
 func SetState(building, room string, body base.PublicRoom) error {
-
 	b, err := json.Marshal(body)
 	if err != nil {
-		msg := fmt.Sprintf(
-			"error marshalling room: %v", err.Error())
-		logger.L.Warn(msg)
+		msg := fmt.Sprintf("error marshalling room: %v", err.Error())
+		log.L.Warn(msg)
 		return errors.New(msg)
 	}
-	_, err = http.Post(
-		fmt.Sprintf(addr, building, room),
-		"application/json",
-		bytes.NewBuffer(b),
-	)
 
+	resp, err := http.Post(fmt.Sprintf(addr, building, room), "application/json", bytes.NewBuffer(b))
 	if err != nil {
 		msg := fmt.Sprintf("error making request: %v", err.Error())
-		logger.L.Warn(msg)
+		log.L.Warn(msg)
 		return errors.New(msg)
 	}
-	logger.L.Debugf("Done setting state")
+	defer resp.Body.Close()
+
+	log.L.Debugf("Done setting state")
 	return nil
 }
