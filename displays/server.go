@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/byuoitav/av-api/base"
-	"github.com/byuoitav/event-forwarding/logger"
+	"github.com/byuoitav/common/log"
 	"github.com/byuoitav/longevity-testing/common"
 )
 
@@ -14,9 +14,9 @@ var building = "ITB"
 var room = "1108B"
 
 func init() {
-	logger.L.Debug("Starting init")
+	log.L.Debug("Starting init")
 	rand.Seed(time.Now().UnixNano())
-	logger.L.Debug("Finishing init")
+	log.L.Debug("Finishing init")
 }
 
 func main() {
@@ -38,24 +38,24 @@ func main() {
 func StartDevice(device string) {
 	//start a ticker
 	ticker := time.NewTicker(10 * time.Second)
+
 	for {
 		<-ticker.C //wait
-		logger.L.Debugf("%v Starting.", device)
+		log.L.Debugf("%v Starting.", device)
 
 		//check if we're gonna get state or set it - we have a 40% chance of getting status vs setting
 		if rand.Intn(10) < 4 {
 			common.GetState(building, room)
 			continue
 		}
-		logger.L.Debugf("%v Trying for a set state", device)
+		log.L.Debugf("%v Trying for a set state", device)
 
 		do, body := getCommand(device)
 		if !do {
 			continue
-			logger.L.Debugf("%v not this time", device)
 		}
 
-		logger.L.Debugf("%v setting state", device)
+		log.L.Debugf("%v setting state", device)
 		common.SetState(building, room, body)
 	}
 }
@@ -114,7 +114,8 @@ func getCommand(device string) (do bool, rm base.PublicRoom) {
 		rm.AudioDevices = append(rm.AudioDevices, toReturn)
 		action = "volume"
 	}
-	logger.L.Debugf("%v Num was %v, so action is %v", device, val, action)
+
+	log.L.Debugf("%v Num was %v, so action is %v", device, val, action)
 	return
 }
 
