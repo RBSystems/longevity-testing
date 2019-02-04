@@ -11,7 +11,7 @@ import (
 	"github.com/byuoitav/event-forwarding/logger"
 )
 
-var addr = "http://ITB-1108B-CP1:8000/buildings/%s/rooms/%s"
+var addr = "http://ITB-1108M-CP1:8000/buildings/%s/rooms/%s"
 
 func GetState(building, room string) error {
 	_, err := http.Get(fmt.Sprintf(addr, building, room))

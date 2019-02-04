@@ -11,7 +11,7 @@ import (
 )
 
 var building = "ITB"
-var room = "1108B"
+var room = "1108M"
 
 func init() {
 	logger.L.Debug("Starting init")
@@ -20,7 +20,7 @@ func init() {
 }
 
 func main() {
-	devices := []string{"D1", "D2", "D3"}
+	devices := []string{"D1"}
 
 	//don't stop! Believin!
 	wg := sync.WaitGroup{}
@@ -82,7 +82,7 @@ func getCommand(device string) (do bool, rm base.PublicRoom) {
 				toReturn.Blanked = getBoolPointer(false)
 				action = "unblank"
 			}
-		} else if val < 60 {
+		} else if val < 50 {
 			if val < 30 {
 				toReturn.Power = "standby"
 				action = "standby"
@@ -91,8 +91,14 @@ func getCommand(device string) (do bool, rm base.PublicRoom) {
 				action = "on"
 			}
 		} else if val < 70 {
-			toReturn.Input = "HDMI1"
-			action = "input"
+			if val < 60 {
+				toReturn.Input = "HDMI1"
+				action = "input"
+			} else {
+				toReturn.Input = "HDMI2"
+				action = "input"
+			}
+
 		}
 		rm.Displays = append(rm.Displays, toReturn)
 	} else if val < 85 {
